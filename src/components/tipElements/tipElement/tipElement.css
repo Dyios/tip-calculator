@@ -1,0 +1,23 @@
+.tipElement-container{
+    background-color: var(--principal-green);
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0.3rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.tipElement-container:hover {
+    cursor: pointer;
+}
+
+.tipElement-container:not([class ~= selected]):hover  {
+    background-color: var(--hover-green);
+    color: var(--principal-green);
+}
+
+.selected{
+    color: var(--principal-green);
+    background-color: var(--selected-green);
+}

@@ -1,0 +1,29 @@
+.resultSection-container{
+    background-color: var(--principal-green);
+    border-radius: 12px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 0;
+    padding: 2rem;
+}
+
+.reset {
+    margin-top: 2rem;
+    padding: 0.6rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    color: var(--principal-green); 
+}
+
+.reset:not(:disabled){
+    background-color: var(--selected-green);
+}
+
+.reset:not(:disabled):hover  {
+    cursor: pointer;
+    background-color: var(--hover-green);
+}

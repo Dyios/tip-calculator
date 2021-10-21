@@ -1,0 +1,14 @@
+.customTip-container > input {
+    text-align: right;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.3rem;
+    padding-right: 1rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: var(--principal-green);
+}
+
+.customTip-container > input:hover {
+    cursor: pointer;
+}

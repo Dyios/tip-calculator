@@ -1,0 +1,32 @@
+.resultElement-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.3rem;
+}
+
+.resultLabel-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.resultLabel {
+    color: white;
+}
+
+.person {
+    color: var(--grayish-cyan);
+    font-size: 0.9rem;
+}
+
+.amount {
+    color: var(--selected-green);
+    font-size: 3rem;
+}
+
+@media (min-width: 768px){
+    .resultElement-container {
+        margin-bottom: 1rem;
+    }
+}

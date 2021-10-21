@@ -1,0 +1,15 @@
+.label-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.label-container > :not([class = 'label']) {
+    color: var(--error-color);
+}
+
+.label{
+    color: var(--grayish-cyan);
+}

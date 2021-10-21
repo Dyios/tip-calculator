@@ -1,0 +1,43 @@
+:root{
+    --padding-vertical: 0.3rem;
+    --padding-horizontal: 1rem;
+}
+
+.InputElement-container {
+    position: relative;
+    background-color: hsl(189, 41%, 97%);
+}
+
+.InputElement-container > * {
+    background-color: inherit;
+}
+
+.icon {
+    position: absolute;
+    left: var(--padding-horizontal);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input {
+    width: 100%;
+    text-align: right;
+    padding: var(--padding-vertical);
+    padding-right: var(--padding-horizontal);
+    color: var(--principal-green);
+    font-weight: 700;
+    font-size: 1.3rem;
+    border-radius: 4px;
+}
+
+.input {
+    cursor: pointer;
+}
+
+input:focus {
+    outline-color: var(--selected-green);
+}
+
+.error:focus {
+    outline-color: var(--error-color);
+}

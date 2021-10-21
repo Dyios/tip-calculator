@@ -1,0 +1,8 @@
+.inputSection-container {
+    flex: 1.3 1 0;
+    margin: 1rem 0;
+}
+
+.inputSection-container > *:not(:last-child) {
+    margin-bottom: 2.5rem;
+}
