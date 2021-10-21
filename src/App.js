@@ -1,5 +1,4 @@
-import { useEffect } from 'react';
-import { useState } from 'react/cjs/react.development';
+import { useState, useEffect } from 'react';
 import './App.css';
 import InputSection from './components/inputSection/InputSection';
 import ResultSection from './components/resultSection/ResultSection';
